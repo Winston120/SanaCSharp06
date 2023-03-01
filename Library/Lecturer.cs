@@ -33,5 +33,9 @@ namespace Library
             Department = "Кафедра комп'ютерних наук та інформаційних технологій";
             University = "Житомирський державний університет ім. І. Франка";
         }
+        public override string ShowInfo()
+        {
+            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}, Посада - {JobTitle}, Кафедра - {Department}, ВУЗ - {University}\n";
+        }
     }
 }

@@ -36,7 +36,7 @@ namespace Library
 
         public override string ShowInfo()
         {
-            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}, Назва школи - {NameSchool}, Бал атестату - {PointsEducationalDoc}, {AverageValueСertificate.GetInfo()}";
+            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}, Назва школи - {NameSchool}, Бал атестату - {PointsEducationalDoc}, {AverageValueСertificate.GetInfo()}\n";
         }
     }
 }

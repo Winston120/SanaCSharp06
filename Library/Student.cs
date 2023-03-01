@@ -37,5 +37,9 @@ namespace Library
             Faculty = faculty;
             University = university;
         }
+        public override string ShowInfo()
+        {
+            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}, Курс - {Course} , Група - {Groupe}, Факультет - {Faculty}, ВУЗ - {University}\n";
+        }
     }
 }

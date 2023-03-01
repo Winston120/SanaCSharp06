@@ -26,7 +26,7 @@
         }
         public virtual string ShowInfo()
         {
-            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}";
+            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}\n";
         }
 
     }
