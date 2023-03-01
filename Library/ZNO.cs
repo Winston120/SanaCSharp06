@@ -10,28 +10,28 @@ namespace Library
     {
         public int Ukrainian { get; set; }
         public int Maths { get; set; }
-        public int History { get; set; }
+        public int Physics { get; set; }
         public int English { get; set; }
 
         public ZNO()
         {
             Ukrainian = 120;
             Maths = 120;
-            History = 120;
+            Physics = 120;
             English = 120;
         }
-        public ZNO(int ukrainian, int maths, int history, int english)
+        public ZNO(int ukrainian, int maths, int physics, int english)
         {
             Ukrainian = ukrainian;
             Maths = maths;
-            History = history;
+            Physics = physics;
             English = english;
         }
-        public ZNO(int ukrainian, int maths, int history)
+        public ZNO(int ukrainian, int maths, int physics)
         {
             Ukrainian = ukrainian;
             Maths = maths;
-            History = history;
+            Physics = physics;
             English = 0;
         }
 
@@ -39,8 +39,12 @@ namespace Library
         {
             Ukrainian= zno.Ukrainian;
             Maths= zno.Maths;
-            History= zno.History;
+            Physics= zno.Physics;
             English= zno.English;
+        }
+        public string GetInfo()
+        {
+            return $"Результати ЗНО:\n\tУкр. - {Ukrainian}\n\tМат - {Maths}\n\tФізика - {Physics}\n\tАнг. - {English}\n";
         }
     }
 }

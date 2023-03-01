@@ -33,5 +33,10 @@ namespace Library
             PointsEducationalDoc = 0;
             NameSchool = "Житомирський ліцей №25";
         }
+
+        public override string ShowInfo()
+        {
+            return $"Ім'я - {FirstName}, Прізвище - {LastName}, Дата народження - {Birthday.GetInfo()}, Назва школи - {NameSchool}, Бал атестату - {PointsEducationalDoc}, {AverageValueСertificate.GetInfo()}";
+        }
     }
 }
