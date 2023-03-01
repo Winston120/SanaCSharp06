@@ -15,8 +15,8 @@ namespace Library
         public Date()/*По замовчуванню*/
         {
             Year = 2023;
-            Month = 2;
-            Day = 3;
+            Month = 3;
+            Day = 1;
         }
         public Date(int year, int month, int day)
         {
