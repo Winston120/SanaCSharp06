@@ -5,6 +5,13 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualizationApp", "VirtualizationApp\VirtualizationApp.csproj", "{4B8C7E1E-9436-4E27-AB46-FBE8537BF60F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D99C588E-0F3A-4BE5-B794-23F4162F19D2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{7F3D0393-1DBB-4FDC-ACE8-A024476B35C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{4B8C7E1E-9436-4E27-AB46-FBE8537BF60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B8C7E1E-9436-4E27-AB46-FBE8537BF60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B8C7E1E-9436-4E27-AB46-FBE8537BF60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3D0393-1DBB-4FDC-ACE8-A024476B35C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3D0393-1DBB-4FDC-ACE8-A024476B35C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3D0393-1DBB-4FDC-ACE8-A024476B35C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3D0393-1DBB-4FDC-ACE8-A024476B35C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
