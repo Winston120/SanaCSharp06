@@ -8,27 +8,31 @@ namespace Library
 {
     public class Date
     {
-        public int Year { get; set; }
-        public int Month { get; set; }
         public int Day { get; set; }
+        public int Month { get; set; }
+        public int Year { get; set; }
 
         public Date()/*По замовчуванню*/
         {
-            Year = 2023;
-            Month = 3;
             Day = 1;
+            Month = 3;
+            Year = 2023;
         }
-        public Date(int year, int month, int day)
+        public Date(int day, int month, int year)
         {
-            Year = year;
-            Month = month;
             Day = day;
+            Month = month;
+            Year = year;
         }
         public Date(Date date)/*Копіювання*/
         {
-            Year = date.Year;
-            Month = date.Month;
             Day = date.Day;
+            Month = date.Month;
+            Year = date.Year;
+        }
+        public string GetInfo()
+        {
+            return $"{Day}.{Month}.{Year}";
         }
     }
 

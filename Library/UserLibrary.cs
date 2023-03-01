@@ -18,7 +18,7 @@ namespace Library
             IssueDate = new Date(issueDate);
             MonthlyReadingFee = monthlyReadingFee;
         }
-        public UserLibrary(string firstName, string lastName, Date birthday, string libraryCardNumber, Date issueDate,)
+        public UserLibrary(string firstName, string lastName, Date birthday, string libraryCardNumber, Date issueDate)
             : base(firstName, lastName, birthday)
         {
             LibraryCardNumber = libraryCardNumber;
