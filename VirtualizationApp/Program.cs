@@ -11,4 +11,15 @@ Person student = new Student("Яніна", "Стельмашенко", new Date(
 Person lecturer = new Lecturer("Сергій", "Жуковський", new Date(10, 10, 1985), "Доцент, кандидат педагогічних наук", "Кафедра комп'ютерних наук та інформаційних технологій", "Житомирський державний університет ім. І. Франка");
 Person userLibrary = new UserLibrary("Яніна", "Стельмашенко", new Date(10, 10, 2001), 24, new Date(1, 3, 2023), 200);
 
-Console.WriteLine(userLibrary.ShowInfo());
+
+List<Person> persons = new List<Person>();
+persons.Add(person);
+persons.Add(applicant);
+persons.Add(student);
+persons.Add(lecturer);
+persons.Add(userLibrary);
+
+foreach(Person personsItem in persons)
+{
+    Console.WriteLine(personsItem.ShowInfo());
+}
